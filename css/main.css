@@ -1,0 +1,79 @@
+html, 
+body {
+    height: 100%;
+    margin: 0;
+    font-size: 15px;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.component {
+    background-color: hsl(0, 0%, 100%);
+    width: 325px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    height: 500px;
+    border-radius: 15px;
+}
+
+img {
+    height: 290px;
+    width: 290px;
+    border-radius: 10px;
+    align-items: center;
+    margin: 16px;
+}
+
+h1 {
+    font-size: 22px;
+    text-align: center;
+    width: 82%;
+    margin: 0;
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+}
+
+p {
+    width: 80%;
+    text-align: center;
+    margin-bottom: 30px;
+    color: hsl(215, 6%, 63%);
+    margin-top: 5px;
+}
+
+
+
+/* Footer Attribution */
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    position: fixed;
+    bottom: 3%;
+    width: 100%;
+
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+
+/* MOBILE */
+@media only screen and (min-width: 375px) {
+    /*mobile styles here*/
+    }
+
+
+/* DESKTOP */
+@media only screen and (min-width: 1440px) {  
+    /*Desktop styles here */  
+    }
