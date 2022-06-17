@@ -24,7 +24,7 @@ body {
     border-radius: 15px;
 }
 
-img {
+.qrcode {
     height: 290px;
     width: 290px;
     border-radius: 10px;
